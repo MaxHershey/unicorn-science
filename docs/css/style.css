@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'arkhip';
+    src: url('arkhip.woff2') format('woff2'),
+         url('arkhip.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html, body {
+    min-height: 100%;
+}
+
+.bg {
+    background-image: url('../images/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+
+.container {
+    margin-top: 8%;
+    text-align: center;
+}
+
+.title {
+    font-family: 'arkhip';
+    font-size: 50px;
+    line-height: 0.5;
+    margin: 0;
+    margin-top: 30px;
+}
+
+.title > span {
+    display: block;
+}
+
+.title > sub {
+    font-size: 50%;
+}
