@@ -63,8 +63,10 @@ html, body {
     > .btn {
         width: 120px;
 
-        &:hover {
+        &:hover, &:focus, &:active {
             background-color: transparent;
+            color: #fff;
+            border-color: #fff;
         }
     }
 }
