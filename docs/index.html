@@ -5,24 +5,49 @@
     <title>Unicorn Science</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
-    <link rel="stylesheet" href="./css/style.css" />
+    <!-- inject:css -->
+    <link rel="stylesheet" href="dist/style.css">
+    <!-- endinject -->
+    <!-- inject:js -->
     <script src="js/analytics.js"></script>
+    <!-- endinject -->
 </head>
 
 <body class="bg">
-    <div class="container">
+    <div class="wrapper">
 
         <!-- logo -->
         <div class="logo">
-            <img src="./images/logo.png" alt="Unicorn Science" />
+            <img src="images/logo.png" />
         </div>
 
         <!-- title -->
         <h1 class="title">
             <span>Unicorn</span>
-            <sub>Science</sub>
+            <small>Science</small>
         </h1>
 
+    </div>
+
+    <!-- description -->
+    <div class="description">
+        <span>Made with <i class="fa fa-heart"></i> by unicorn scientists</span>
+    </div>
+
+    <!-- styleguides -->
+    <div class="styleguides">
+        <a href="https://github.com/justinlettau/unicorn-science/blob/master/stylesheet/javascript.md" class="btn btn-outline-secondary">
+            <span>JavaScript</span>
+        </a>
+        <a href="https://github.com/justinlettau/unicorn-science/blob/master/stylesheet/typescript.md" class="btn btn-outline-secondary">
+            <span>TypeScript</span>
+        </a>
+        <a href="https://github.com/justinlettau/unicorn-science/blob/master/stylesheet/csharp.md" class="btn btn-outline-secondary">
+            <span>C#</span>
+        </a>
+        <a href="https://github.com/justinlettau/unicorn-science/blob/master/stylesheet/sass.md" class="btn btn-outline-secondary">
+            <span>Sass</span>
+        </a>
     </div>
 </body>
 

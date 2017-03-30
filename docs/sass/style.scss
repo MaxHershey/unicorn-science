@@ -1,0 +1,70 @@
+@import 'variables';
+@import '../node_modules/bootstrap/scss/bootstrap';
+@import '../node_modules/font-awesome/scss/font-awesome';
+
+@font-face {
+    font-family: 'arkhip';
+    src: url('../fonts/arkhip.woff2') format('woff2'),
+         url('../fonts/arkhip.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html, body {
+    min-height: 100%;
+    color: #fff;
+}
+
+.bg {
+    background-image: url('../images/bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.wrapper {
+    margin-top: 8%;
+    text-align: center;
+}
+
+.logo {
+    margin-bottom: 1rem;
+
+    > img {
+        width: 80px;
+    }
+}
+
+.title {
+    font-size: 80px;
+    display: inline-block;
+    position: relative;
+    margin-bottom: 5rem;
+
+    > small {
+        font-size: 50%;
+        position: absolute;
+        bottom: -30px;
+        right: 0;
+    }
+}
+
+.description {
+    position: absolute;
+    bottom: 2rem;
+    left: 2rem;
+    opacity: .6;
+}
+
+.styleguides {
+    position: absolute;
+    bottom: 2rem;
+    right: 2rem;
+
+    > .btn {
+        width: 120px;
+
+        &:hover {
+            background-color: transparent;
+        }
+    }
+}
