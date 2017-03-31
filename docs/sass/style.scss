@@ -38,7 +38,7 @@ html, body {
     font-size: 80px;
     display: inline-block;
     position: relative;
-    margin-bottom: 5rem;
+    margin-bottom: 3rem;
 
     > small {
         font-size: 50%;
@@ -49,13 +49,17 @@ html, body {
 }
 
 .description {
+    font-family: 'arkhip';
+}
+
+.copyright {
     position: absolute;
     bottom: 2rem;
     left: 2rem;
     opacity: .6;
 }
 
-.styleguides {
+.style-guides {
     position: absolute;
     bottom: 2rem;
     right: 2rem;
