@@ -1,4 +1,15 @@
 # JavaScript
+This style guide follows the [general](./general.md) format and rules.
+
+This style guide can be implemented using [eslint-config-unicorn-science](https://github.com/justinlettau/eslint-config-unicorn-science).
+
+1. [General](#general)
+1. [Naming](#naming)
+1. [Formatting](#formatting)
+1. [Language Features](#language-features)
+1. [Other](#other)
+
+## General
 
 ### File Names
 
@@ -792,7 +803,7 @@ function sum (a, b, a) {
 }
 ```
 
-## Class members
+### Class members
 
 **Avoid** duplicate name in class members.
 (eslint: [`no-dupe-class-members`](http://eslint.org/docs/rules/no-dupe-class-members))
