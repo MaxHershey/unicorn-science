@@ -74,7 +74,7 @@ var dog = new animal();
 **Do** name local variables, packages, methods, and parameters as `lowerCamelCase`.
 (eslint: [`camelcase`](http://eslint.org/docs/rules/camelcase))
 
-**Do** name classes, interfaces, enums, and typedef names as `UpperCamelCase`.
+**Do** name classes and typedef names as `UpperCamelCase`.
 
 **Do** name enums as singular nouns.
 
