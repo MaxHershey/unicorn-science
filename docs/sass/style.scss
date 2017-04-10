@@ -60,17 +60,34 @@ html, body {
 }
 
 .style-guides {
-    position: absolute;
-    bottom: 2rem;
-    right: 2rem;
-
     > .btn {
-        width: 120px;
-
         &:hover, &:focus, &:active {
             background-color: transparent;
             color: #fff;
             border-color: #fff;
+        }
+    }
+}
+
+
+@media (min-width: 769px) {
+    .style-guides {
+        position: absolute;
+        bottom: 2rem;
+        right: 2rem;
+
+        > .btn {
+            width: 120px;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .style-guides {
+
+        > .btn {
+            width: 100%;
+            margin: 10px;
         }
     }
 }
