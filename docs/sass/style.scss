@@ -61,6 +61,9 @@ html, body {
 
 .style-guides {
     > .btn {
+        width: 100%;
+        margin: 1rem 2rem;
+
         &:hover, &:focus, &:active {
             background-color: transparent;
             color: #fff;
@@ -70,7 +73,7 @@ html, body {
 }
 
 
-@media (min-width: 769px) {
+@media (min-width: map-get($grid-breakpoints, lg)) {
     .style-guides {
         position: absolute;
         bottom: 2rem;
@@ -78,16 +81,7 @@ html, body {
 
         > .btn {
             width: 120px;
-        }
-    }
-}
-
-@media (max-width: 768px) {
-    .style-guides {
-
-        > .btn {
-            width: 100%;
-            margin: 10px;
+            margin: 0 1rem;
         }
     }
 }
